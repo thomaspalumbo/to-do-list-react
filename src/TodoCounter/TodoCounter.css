@@ -1,8 +1,9 @@
 .TodoCounter {
-    font-size: 24px;
+  font-size: 24px;
   text-align: center;
   margin: 0;
   color: #DEEEEA;
   padding-bottom: 24px;
   font-weight: 400;
+  font-family: 'Permanent Marker', cursive;
 }
