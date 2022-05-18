@@ -23,7 +23,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 10px 0;
+  margin: 10px 0 60px 0;
   color: #333;
 }
 .add-button {
@@ -41,3 +41,13 @@
   width: 30px;
   margin: 0 5px;
 } 
+
+@media (min-width: 600px) {
+  .empty-msg {
+    height: 300px;
+  }
+  .empty-img {
+    height: 120px;
+  }
+
+}

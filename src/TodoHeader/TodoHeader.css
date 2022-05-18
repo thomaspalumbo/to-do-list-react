@@ -16,3 +16,9 @@
   font-size: 3rem;
   font-weight: 700;
 }
+
+@media (min-width: 600px) {
+  .title {
+    font-size: 5rem;
+  }
+}

@@ -1,22 +1,29 @@
 .TodoSearch {
-    background: #39A6A3;
-    border-radius: 16px;
-    border: none;
-    margin: 34px 24px;
-    height: 64px;
-    width: calc(100% - 62px);
-    font-size: 24px;
-    text-align: center;
-    font-family: 'Ubuntu';
-    font-weight: 500;
-    color: #DEEEEA;
-    box-shadow: 0px 4px 20px 0px rgba(54, 54, 54, 0.397);
-    align-self: center;
-    outline: none;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  background: #BF1363;
+  border-radius: 16px;
+  border: none;
+  margin: 24px auto 45px auto;
+  height: 64px;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  color: #DEEEEA;
+  box-shadow: 0px 4px 20px 0px rgba(54, 54, 54, 0.397);
+  outline: none;
+}
+
+.TodoSearch::placeholder {
+  color: #deeeead5;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+}
+
+@media (min-width: 600px) {
+  .TodoSearch {
+    max-width: 540px;
   }
-  
-  .TodoSearch::placeholder {
-    color: #deeeead5;
-    font-family: 'Ubuntu';
-    font-weight: 400;
-  }
+}

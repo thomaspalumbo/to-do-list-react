@@ -3,4 +3,7 @@ ul {
     margin: 0 auto;
     padding: 0 0 56px 0;
     list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }

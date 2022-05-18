@@ -13,13 +13,11 @@ function TodoContainer() {
     } = React.useContext(TodoContext)
     return(
         <TodoList>
+
         <TodoCounter />
         
-        {
-        localStorage.getItem('TODOS_V1') !== '[]' 
-        ? <TodoSearch />
-        : null 
-      }     
+        <TodoSearch />
+        
         {searchedTodos.map(todo => (
           <TodoItem
             key={todo.text}
