@@ -12,13 +12,15 @@ function AppUI() {
     openModal,
     setOpenModal,
   } = React.useContext(TodoContext); 
-  
+
+  const validation =  localStorage.getItem('TODOS_V1') === '[]'  || localStorage.getItem("TODOS_V1") === null
+
   return (
     <React.Fragment>
       <TodoHeader />
         
       {
-        localStorage.getItem('TODOS_V1') === '[]'
+        validation
         ? <TodoEmpty />
         : <TodoContainer />
       }

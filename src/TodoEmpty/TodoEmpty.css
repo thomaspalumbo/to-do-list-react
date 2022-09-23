@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
   margin: 10px 0 60px 0;
-  color: #333;
+  color: rgba(250,259, 250, 0.5)
 }
 .add-button {
   background-color: #BF1363;
@@ -44,10 +44,12 @@
 
 @media (min-width: 600px) {
   .empty-msg {
-    height: 300px;
+    height: 400px;
   }
   .empty-img {
     height: 120px;
   }
-
+  .empty-subtitle > p {
+    margin-top: 40px;
+  }
 }
